@@ -1,7 +1,7 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
-
+train: /Users/ardenmonaghan/Desktop/MachineLearning/WorkSafe_CV/Models/testing_yolo/PPE-Dataset-for-Workplace-Safety-2/train/images
+val: /Users/ardenmonaghan/Desktop/MachineLearning/WorkSafe_CV/Models/testing_yolo/PPE-Dataset-for-Workplace-Safety-2/valid/images
+test: /Users/ardenmonaghan/Desktop/MachineLearning/WorkSafe_CV/Models/testing_yolo/PPE-Dataset-for-Workplace-Safety-2/test/images
+# From the directory of the python script
 nc: 8
 names: ['Boots', 'Ear-protection', 'Glass', 'Glove', 'Helmet', 'Mask', 'Person', 'Vest']
 

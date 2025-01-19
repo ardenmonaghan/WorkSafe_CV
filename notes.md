@@ -28,6 +28,13 @@ Neural Network Output: Bounding Box, Class, Confidence.
 - 30 is the output vector size. 
 
 
+- Precision and Recall:
+- Precision: True Positives / (True Positives + False Positives)
+- TP: predicted bounding box that correctly identify the object/
+- FP: Predicted bounding boxes that detect a background region as an object or detect an object but do not overlap with the ground truth.
+
+
+
 
 ### Important Steps
 - Training the Model
